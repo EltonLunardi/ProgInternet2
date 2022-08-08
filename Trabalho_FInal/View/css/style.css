@@ -1,0 +1,170 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./imagens/fundo.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 480px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container-cadastro img {
+    width: 200px;
+    height: 200px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+#container-cadastro {
+    width: 480px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+
+#container img {
+    width: 200px;
+    height: 200px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+#register a:link,
+#register a:hover {
+    color: #324F6C;
+    text-decoration: none;
+}
+
+#register a:visited {
+    color: #0E2740;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(./imagens/icone-usuario.png);
+}
+
+input.password {
+    background-image: url(./imagens/icone-cadeado.png);
+}
+
+input.submit {
+    color: #fff;
+    background-color: #1F3C58;
+    border: 2px solid #0E2740;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    background: -webkit-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: -moz-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: -o-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: linear-gradient(to bottom, #324F6C, #1F3C58);
+    cursor: pointer;
+}
+
+/* Cadastro */
+
+#logo {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+#logo img {
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: none;
+}
+
+#container-register {
+    width: 500px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+label {
+    margin-left: 15px;
+    text-align: left;
+}
+
+.input-register {
+    height: 25px;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding-left: 15px;
+    border: none;
+}
+
+.input-register-sex {
+    height: 25px;
+    width: 25%;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input.botton-register {
+    color: #fff;
+    background-color: #1F3C58;
+    border: 2px solid #0E2740;
+    height: 20px;
+    padding-right: 12px;
+    width: 20%;
+    background: -webkit-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: -moz-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: -o-linear-gradient(to bottom, #324F6C, #1F3C58);
+    background: linear-gradient(to bottom, #324F6C, #1F3C58);
+}
+
+.botton-register {
+    display: inline;
+    float: right;
+    height: 15px;
+    width: 30%;
+    font-size: 12px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+}
